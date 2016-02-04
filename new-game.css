@@ -7,25 +7,20 @@ body {
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 6em;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Orbitron-Light'), local('Orbitron-Regular'), url(http://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQnYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  text-align: center;
+
 }
 
 h2 {
   font-family: Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
+  text-decoration: none;
+  text-align: center;
 }
 
-.btn {
+.button {
   font-family: Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   display: block;
-  position:relative;
-  margin: 10px;
   padding: 1.5em;
   border-style: solid;
   border-width: 2px;
@@ -36,9 +31,20 @@ h2 {
   color: white;
 }
 
+.diff {
+  text-align: center;
+  width: 30%;
+  margin-left: 40%;
+}
 
-.btn:hover {
+
+.button:hover {
     background-color: white;
+    text-decoration: none;
     color: rgb(71, 165, 186);
     -webkit-transition: background 1s;
+}
+
+a {
+  text-decoration: none;
 }
