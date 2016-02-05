@@ -8,7 +8,10 @@ h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 6em;
   text-align: center;
+}
 
+.title {
+  letter-spacing: .2em;
 }
 
 h2 {
@@ -34,7 +37,7 @@ h2 {
 .diff {
   text-align: center;
   width: 30%;
-  margin-left: 40%;
+  margin-left: 39.5%;
 }
 
 
