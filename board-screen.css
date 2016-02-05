@@ -13,6 +13,8 @@ h1 {
 
 .bar {
   text-align: left;
+  margin-left: 27.25%;
+  margin-right: 24%;
 }
 
 .heart {
@@ -27,6 +29,10 @@ h1 {
 
 ul {
   list-style-type: none;
+  margin: 0px;
+}
+
+ul li{
   display: inline-block;
 }
 
@@ -40,6 +46,7 @@ input {
   width: 100px;
   height: 100px;
   background: steelblue;
+  border-radius: 5px;
   display: block;
   transition: background 1s,
   -webkit-transform 1s;
