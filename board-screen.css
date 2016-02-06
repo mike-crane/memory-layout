@@ -5,34 +5,35 @@ body {
   min-width: 700px;
   max-width: 700px;
   margin: auto;
-  position: fixed;
 }
 
 h1 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 4em;
+  font-size: 4.3em;
   font-weight: lighter;
   text-align: center;
 }
 
-.bar {
-
-
+.title {
+  letter-spacing: 2px;
 }
 
 .heart {
   font-size: 1em;
   display: inline-block;
+  float: left;
+  margin-left: 8px;
 }
 
 .clock {
   display: inline-block;
   float: right;
+  margin-right: 8px;
 }
 
 ul {
   list-style-type: none;
-  margin: 0px;
+  margin: 3px;
 }
 
 ul li{
@@ -59,7 +60,7 @@ input {
 }
 
 input:checked +.card {
-  background: lightcoral;
+  background: teal;
   -webkit-transform: rotateY(180deg);
 }
 
@@ -69,8 +70,6 @@ input:checked +.card .flip {
 }
 
 .flip {
-  position: absolute;
-  margin-top: 35px;
-  margin-left: 45px;
   opacity: 0;
+  margin-top: 35px;
 }
